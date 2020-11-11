@@ -1,0 +1,3 @@
+profile = conventional
+wrap-comments = true
+parse-docstrings = true

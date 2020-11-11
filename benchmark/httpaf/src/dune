@@ -1,0 +1,9 @@
+(executable
+ (name httpaf_lwt)
+ (modules httpaf_lwt)
+ (libraries httpaf-lwt-unix))
+
+(executable
+ (name httpaf_lwt_bigstring)
+ (modules httpaf_lwt_bigstring)
+ (libraries httpaf-lwt-unix))

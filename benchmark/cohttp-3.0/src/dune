@@ -1,0 +1,4 @@
+(executable
+ (name cohttp_lwt)
+ (modules cohttp_lwt)
+ (libraries cohttp-lwt-unix))

@@ -1,0 +1,28 @@
+(lang dune 2.0)
+
+(name http-bench-cohttp-2_5)
+
+(documentation "https://tmattio.github.io/ocaml-http-benchmark/")
+
+(source
+ (github tmattio/ocaml-http-benchmark))
+
+(license MIT)
+
+(authors "Thibaut Mattio")
+
+(maintainers "Thibaut Mattio")
+
+(generate_opam_files true)
+
+(package
+ (name http-bench-cohttp-2_5)
+ (synopsis "OCaml HTTP benchmark for Httpaf")
+ (description "OCaml HTTP benchmark for Httpaf\n")
+ (depends
+  (ocaml
+   (>= 4.08.0))
+  dune
+  (cohttp-lwt-unix
+   (= 2.5.4))
+  conf-libev))

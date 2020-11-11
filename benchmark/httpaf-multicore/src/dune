@@ -1,0 +1,9 @@
+(library
+ (name httpaf_effects)
+ (modules httpaf_effects)
+ (libraries httpaf aeio))
+
+(executable
+ (name httpaf_lwt_bigstring)
+ (modules httpaf_lwt_bigstring)
+ (libraries httpaf httpaf_effects))
